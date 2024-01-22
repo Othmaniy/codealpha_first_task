@@ -1,0 +1,73 @@
+/* section{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: red;
+}
+.a{
+    height: 500px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+
+}
+.a .inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    gap: 100px;
+}
+.a .button1{
+    width: 100px;
+    /* margin: auto; */
+    /* margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto; */
+
+/* } */
+/* input{
+    height: 50px; */
+
+/* }  */
+section {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.a {
+    height: 500px;
+    background-color: #f0f0f0; /* Change the background color */
+    display: flex;
+    flex-direction: column; /* Set the flex-direction to column */
+    align-items: center; /* Center items vertically */
+    justify-content: center;
+    width: 700px;
+}
+
+.a .inputs {
+    display: flex;
+    gap: 10px; /* Reduce the gap for better spacing */
+    justify-content: space-around;
+}
+
+.a .button1 {
+    margin-top: 20px;
+}
+
+input {
+    height: 50px;
+}
+input:focus{
+    outline: none;
+ border: 4px solid orange;
+}
