@@ -17,7 +17,21 @@ document.getElementById("sub").addEventListener("click", (e) => {
 //   console.log(dcurrent);
   console.log(mnow);
   console.log(ynow);
-
+if(d=="" || d>30){
+  document.getElementById("error").innerHTML="invalid date please enter valid date";
+  console.log("invalid date please enter valid date");
+  return
+}
+if(month>12){
+  document.getElementById("error").innerHTML="invalid month";
+  console.log("invalid month");
+  return
+}
+if(year>2024){
+  document.getElementById("error").innerHTML="invalid year";
+  console.log("invalid year");
+  return;
+}
   if(d>dnow){
  dnow = dnow+dmonth[dnow-1];
  mnow=mnow-1
@@ -30,6 +44,7 @@ document.getElementById("sub").addEventListener("click", (e) => {
   var d3 = dnow-d;
   var y =ynow-year;
   var m = mnow-month;
+
 
   document.getElementById("age").innerHTML="you are "+" "+y+" "+" years"+""+m + ""+" months "+d3+" days";
 
