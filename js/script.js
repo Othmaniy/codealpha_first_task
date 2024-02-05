@@ -46,7 +46,7 @@ if(year>2024){
   var m = mnow-month;
 
 
-  document.getElementById("age").innerHTML="you are "+" "+y+" "+" years"+""+m + ""+" months "+d3+" days";
+  document.getElementById("error").innerHTML="you are "+" "+y+" "+" years"+" "+m + ""+" months "+d3+" days";
 
   console.log();
 
